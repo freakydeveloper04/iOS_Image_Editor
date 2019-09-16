@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48C256CE232F52530008BB82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C256CD232F52530008BB82 /* ViewController.swift */; };
+		48C256D0232F98B50008BB82 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C256CF232F98B50008BB82 /* TabBarVC.swift */; };
+		48C9EE98232A729F0049F42A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9EE97232A729F0049F42A /* AppDelegate.swift */; };
+		48C9EE9D232A729F0049F42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C9EE9B232A729F0049F42A /* Main.storyboard */; };
+		48C9EE9F232A729F0049F42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C9EE9E232A729F0049F42A /* Assets.xcassets */; };
+		48C9EEA2232A729F0049F42A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C9EEA0232A729F0049F42A /* LaunchScreen.storyboard */; };
+		48C9EEAD232A72A00049F42A /* iOS_Photo_EditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9EEAC232A72A00049F42A /* iOS_Photo_EditorTests.swift */; };
+		48C9EEB8232A72A00049F42A /* iOS_Photo_EditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9EEB7232A72A00049F42A /* iOS_Photo_EditorUITests.swift */; };
+		48C9EECC232A9D570049F42A /* editorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9EECB232A9D570049F42A /* editorVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48C9EEA9232A72A00049F42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C9EE8C232A729F0049F42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C9EE93232A729F0049F42A;
+			remoteInfo = "iOS Photo Editor";
+		};
+		48C9EEB4232A72A00049F42A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 48C9EE8C232A729F0049F42A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C9EE93232A729F0049F42A;
+			remoteInfo = "iOS Photo Editor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48C256CD232F52530008BB82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		48C256CF232F98B50008BB82 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		48C9EE94232A729F0049F42A /* iOS Photo Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Photo Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C9EE97232A729F0049F42A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		48C9EE9C232A729F0049F42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		48C9EE9E232A729F0049F42A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48C9EEA1232A729F0049F42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48C9EEA3232A729F0049F42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C9EEA8232A72A00049F42A /* iOS Photo EditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Photo EditorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C9EEAC232A72A00049F42A /* iOS_Photo_EditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Photo_EditorTests.swift; sourceTree = "<group>"; };
+		48C9EEAE232A72A00049F42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C9EEB3232A72A00049F42A /* iOS Photo EditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS Photo EditorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48C9EEB7232A72A00049F42A /* iOS_Photo_EditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Photo_EditorUITests.swift; sourceTree = "<group>"; };
+		48C9EEB9232A72A00049F42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48C9EECB232A9D570049F42A /* editorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editorVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48C9EE91232A729F0049F42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C9EEA5232A72A00049F42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C9EEB0232A72A00049F42A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48C9EE8B232A729F0049F42A = {
+			isa = PBXGroup;
+			children = (
+				48C9EE96232A729F0049F42A /* iOS Photo Editor */,
+				48C9EEAB232A72A00049F42A /* iOS Photo EditorTests */,
+				48C9EEB6232A72A00049F42A /* iOS Photo EditorUITests */,
+				48C9EE95232A729F0049F42A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48C9EE95232A729F0049F42A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48C9EE94232A729F0049F42A /* iOS Photo Editor.app */,
+				48C9EEA8232A72A00049F42A /* iOS Photo EditorTests.xctest */,
+				48C9EEB3232A72A00049F42A /* iOS Photo EditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48C9EE96232A729F0049F42A /* iOS Photo Editor */ = {
+			isa = PBXGroup;
+			children = (
+				48C9EEC5232A72B80049F42A /* Main */,
+				48C9EE97232A729F0049F42A /* AppDelegate.swift */,
+				48C9EE9B232A729F0049F42A /* Main.storyboard */,
+				48C9EE9E232A729F0049F42A /* Assets.xcassets */,
+				48C9EEA0232A729F0049F42A /* LaunchScreen.storyboard */,
+				48C9EEA3232A729F0049F42A /* Info.plist */,
+				48C256CD232F52530008BB82 /* ViewController.swift */,
+				48C256CF232F98B50008BB82 /* TabBarVC.swift */,
+			);
+			path = "iOS Photo Editor";
+			sourceTree = "<group>";
+		};
+		48C9EEAB232A72A00049F42A /* iOS Photo EditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				48C9EEAC232A72A00049F42A /* iOS_Photo_EditorTests.swift */,
+				48C9EEAE232A72A00049F42A /* Info.plist */,
+			);
+			path = "iOS Photo EditorTests";
+			sourceTree = "<group>";
+		};
+		48C9EEB6232A72A00049F42A /* iOS Photo EditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				48C9EEB7232A72A00049F42A /* iOS_Photo_EditorUITests.swift */,
+				48C9EEB9232A72A00049F42A /* Info.plist */,
+			);
+			path = "iOS Photo EditorUITests";
+			sourceTree = "<group>";
+		};
+		48C9EEC5232A72B80049F42A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				48C9EEC8232A72DC0049F42A /* Stickers */,
+				48C9EEC7232A72D50049F42A /* Text */,
+				48C9EEC6232A72CD0049F42A /* Filters */,
+				48C9EECB232A9D570049F42A /* editorVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		48C9EEC6232A72CD0049F42A /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		48C9EEC7232A72D50049F42A /* Text */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		48C9EEC8232A72DC0049F42A /* Stickers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stickers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48C9EE93232A729F0049F42A /* iOS Photo Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C9EEBC232A72A00049F42A /* Build configuration list for PBXNativeTarget "iOS Photo Editor" */;
+			buildPhases = (
+				48C9EE90232A729F0049F42A /* Sources */,
+				48C9EE91232A729F0049F42A /* Frameworks */,
+				48C9EE92232A729F0049F42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Photo Editor";
+			productName = "iOS Photo Editor";
+			productReference = 48C9EE94232A729F0049F42A /* iOS Photo Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		48C9EEA7232A72A00049F42A /* iOS Photo EditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C9EEBF232A72A00049F42A /* Build configuration list for PBXNativeTarget "iOS Photo EditorTests" */;
+			buildPhases = (
+				48C9EEA4232A72A00049F42A /* Sources */,
+				48C9EEA5232A72A00049F42A /* Frameworks */,
+				48C9EEA6232A72A00049F42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C9EEAA232A72A00049F42A /* PBXTargetDependency */,
+			);
+			name = "iOS Photo EditorTests";
+			productName = "iOS Photo EditorTests";
+			productReference = 48C9EEA8232A72A00049F42A /* iOS Photo EditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		48C9EEB2232A72A00049F42A /* iOS Photo EditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C9EEC2232A72A00049F42A /* Build configuration list for PBXNativeTarget "iOS Photo EditorUITests" */;
+			buildPhases = (
+				48C9EEAF232A72A00049F42A /* Sources */,
+				48C9EEB0232A72A00049F42A /* Frameworks */,
+				48C9EEB1232A72A00049F42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48C9EEB5232A72A00049F42A /* PBXTargetDependency */,
+			);
+			name = "iOS Photo EditorUITests";
+			productName = "iOS Photo EditorUITests";
+			productReference = 48C9EEB3232A72A00049F42A /* iOS Photo EditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48C9EE8C232A729F0049F42A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = oz10;
+				TargetAttributes = {
+					48C9EE93232A729F0049F42A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					48C9EEA7232A72A00049F42A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 48C9EE93232A729F0049F42A;
+					};
+					48C9EEB2232A72A00049F42A = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 48C9EE93232A729F0049F42A;
+					};
+				};
+			};
+			buildConfigurationList = 48C9EE8F232A729F0049F42A /* Build configuration list for PBXProject "iOS Photo Editor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 48C9EE8B232A729F0049F42A;
+			productRefGroup = 48C9EE95232A729F0049F42A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48C9EE93232A729F0049F42A /* iOS Photo Editor */,
+				48C9EEA7232A72A00049F42A /* iOS Photo EditorTests */,
+				48C9EEB2232A72A00049F42A /* iOS Photo EditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C9EE92232A729F0049F42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C9EEA2232A729F0049F42A /* LaunchScreen.storyboard in Resources */,
+				48C9EE9F232A729F0049F42A /* Assets.xcassets in Resources */,
+				48C9EE9D232A729F0049F42A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C9EEA6232A72A00049F42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C9EEB1232A72A00049F42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48C9EE90232A729F0049F42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C256CE232F52530008BB82 /* ViewController.swift in Sources */,
+				48C9EECC232A9D570049F42A /* editorVC.swift in Sources */,
+				48C256D0232F98B50008BB82 /* TabBarVC.swift in Sources */,
+				48C9EE98232A729F0049F42A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C9EEA4232A72A00049F42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C9EEAD232A72A00049F42A /* iOS_Photo_EditorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48C9EEAF232A72A00049F42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C9EEB8232A72A00049F42A /* iOS_Photo_EditorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48C9EEAA232A72A00049F42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C9EE93232A729F0049F42A /* iOS Photo Editor */;
+			targetProxy = 48C9EEA9232A72A00049F42A /* PBXContainerItemProxy */;
+		};
+		48C9EEB5232A72A00049F42A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48C9EE93232A729F0049F42A /* iOS Photo Editor */;
+			targetProxy = 48C9EEB4232A72A00049F42A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		48C9EE9B232A729F0049F42A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C9EE9C232A729F0049F42A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		48C9EEA0232A729F0049F42A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48C9EEA1232A729F0049F42A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48C9EEBA232A72A00049F42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		48C9EEBB232A72A00049F42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48C9EEBD232A72A00049F42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 892V5CS9XS;
+				INFOPLIST_FILE = "iOS Photo Editor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oz10.iOS-Photo-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48C9EEBE232A72A00049F42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 892V5CS9XS;
+				INFOPLIST_FILE = "iOS Photo Editor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oz10.iOS-Photo-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48C9EEC0232A72A00049F42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS Photo EditorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oz10.iOS-Photo-EditorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Photo Editor.app/iOS Photo Editor";
+			};
+			name = Debug;
+		};
+		48C9EEC1232A72A00049F42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS Photo EditorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oz10.iOS-Photo-EditorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS Photo Editor.app/iOS Photo Editor";
+			};
+			name = Release;
+		};
+		48C9EEC3232A72A00049F42A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS Photo EditorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oz10.iOS-Photo-EditorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Photo Editor";
+			};
+			name = Debug;
+		};
+		48C9EEC4232A72A00049F42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "iOS Photo EditorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oz10.iOS-Photo-EditorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS Photo Editor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48C9EE8F232A729F0049F42A /* Build configuration list for PBXProject "iOS Photo Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C9EEBA232A72A00049F42A /* Debug */,
+				48C9EEBB232A72A00049F42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C9EEBC232A72A00049F42A /* Build configuration list for PBXNativeTarget "iOS Photo Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C9EEBD232A72A00049F42A /* Debug */,
+				48C9EEBE232A72A00049F42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C9EEBF232A72A00049F42A /* Build configuration list for PBXNativeTarget "iOS Photo EditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C9EEC0232A72A00049F42A /* Debug */,
+				48C9EEC1232A72A00049F42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C9EEC2232A72A00049F42A /* Build configuration list for PBXNativeTarget "iOS Photo EditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48C9EEC3232A72A00049F42A /* Debug */,
+				48C9EEC4232A72A00049F42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48C9EE8C232A729F0049F42A /* Project object */;
+}
