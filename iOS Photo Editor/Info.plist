@@ -45,5 +45,31 @@
 	<string>Needs permission to access photos.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Needs permission to access photos.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Carrington.ttf</string>
+		<string>Caviar_Dreams_Bold.ttf</string>
+		<string>CaviarDreams_BoldItalic.ttf</string>
+		<string>CaviarDreams_Italic.ttf</string>
+		<string>CaviarDreams.ttf</string>
+		<string>Kingthings_Calligraphica_2.ttf</string>
+		<string>Kingthings_Calligraphica_Italic.ttf</string>
+		<string>Kingthings_Calligraphica_Light.ttf</string>
+		<string>Kingthings_Foundation.ttf</string>
+		<string>PlayfairDisplay-Black.otf</string>
+		<string>PlayfairDisplay-BlackItalic.otf</string>
+		<string>PlayfairDisplay-Bold.otf</string>
+		<string>PlayfairDisplay-BoldItalic.otf</string>
+		<string>PlayfairDisplay-Italic.otf</string>
+		<string>PlayfairDisplay-Regular.otf</string>
+		<string>PlayfairDisplaySC-Black.otf</string>
+		<string>PlayfairDisplaySC-BlackItalic.otf</string>
+		<string>PlayfairDisplaySC-Bold.otf</string>
+		<string>PlayfairDisplaySC-BoldItalic.otf</string>
+		<string>PlayfairDisplaySC-Italic.otf</string>
+		<string>PlayfairDisplaySC-Regular.otf</string>
+		<string>RechtmanPlain.ttf</string>
+		<string>Redressed.ttf</string>
+	</array>
 </dict>
 </plist>

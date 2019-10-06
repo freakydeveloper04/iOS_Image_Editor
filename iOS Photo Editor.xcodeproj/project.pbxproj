@@ -3,12 +3,17 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D681DCC78A9121E72C00E9F /* Pods_iOS_Photo_Editor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DA9BC647EFE4A447E74D3FA /* Pods_iOS_Photo_Editor.framework */; };
+		4861E41F23432C6E001CEB76 /* Caviar_Dreams_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEE32341EEB30039BCAE /* Caviar_Dreams_Bold.ttf */; };
+		4861E42023432C6E001CEB76 /* CaviarDreams_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEEE2341EEB30039BCAE /* CaviarDreams_Italic.ttf */; };
+		4861E42123432C6E001CEB76 /* Kingthings_Calligraphica_2.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEE02341EEB20039BCAE /* Kingthings_Calligraphica_2.ttf */; };
+		4861E42223432C6E001CEB76 /* Kingthings_Calligraphica_Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEE22341EEB30039BCAE /* Kingthings_Calligraphica_Light.ttf */; };
+		48BE103F2331FEF3002D6C4D /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BE103E2331FEF3002D6C4D /* HomeVC.swift */; };
 		48C256CE232F52530008BB82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C256CD232F52530008BB82 /* ViewController.swift */; };
-		48C256D0232F98B50008BB82 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C256CF232F98B50008BB82 /* TabBarVC.swift */; };
 		48C9EE98232A729F0049F42A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9EE97232A729F0049F42A /* AppDelegate.swift */; };
 		48C9EE9D232A729F0049F42A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C9EE9B232A729F0049F42A /* Main.storyboard */; };
 		48C9EE9F232A729F0049F42A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48C9EE9E232A729F0049F42A /* Assets.xcassets */; };
@@ -16,6 +21,25 @@
 		48C9EEAD232A72A00049F42A /* iOS_Photo_EditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9EEAC232A72A00049F42A /* iOS_Photo_EditorTests.swift */; };
 		48C9EEB8232A72A00049F42A /* iOS_Photo_EditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9EEB7232A72A00049F42A /* iOS_Photo_EditorUITests.swift */; };
 		48C9EECC232A9D570049F42A /* editorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C9EECB232A9D570049F42A /* editorVC.swift */; };
+		48D6314D23430975005065BE /* Carrington.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEDE2341EEB20039BCAE /* Carrington.ttf */; };
+		48D6314E2343097B005065BE /* CaviarDreams_BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEDC2341EEB20039BCAE /* CaviarDreams_BoldItalic.ttf */; };
+		48D6314F2343098B005065BE /* CaviarDreams.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEEA2341EEB30039BCAE /* CaviarDreams.ttf */; };
+		48D6315023430990005065BE /* Kingthings_Calligraphica_Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEF12341EEB40039BCAE /* Kingthings_Calligraphica_Italic.ttf */; };
+		48D6315123430996005065BE /* Kingthings_Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEE52341EEB30039BCAE /* Kingthings_Foundation.ttf */; };
+		48D63152234309A0005065BE /* PlayfairDisplay-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEE62341EEB30039BCAE /* PlayfairDisplay-Black.otf */; };
+		48D63153234309A0005065BE /* PlayfairDisplay-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEE42341EEB30039BCAE /* PlayfairDisplay-BlackItalic.otf */; };
+		48D63154234309A0005065BE /* PlayfairDisplay-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEF02341EEB40039BCAE /* PlayfairDisplay-Bold.otf */; };
+		48D63155234309A0005065BE /* PlayfairDisplay-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEE72341EEB30039BCAE /* PlayfairDisplay-BoldItalic.otf */; };
+		48D63156234309A0005065BE /* PlayfairDisplay-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEE82341EEB30039BCAE /* PlayfairDisplay-Italic.otf */; };
+		48D63157234309A0005065BE /* PlayfairDisplay-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEEC2341EEB30039BCAE /* PlayfairDisplay-Regular.otf */; };
+		48D63158234309A0005065BE /* PlayfairDisplaySC-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEE12341EEB30039BCAE /* PlayfairDisplaySC-Black.otf */; };
+		48D63159234309A0005065BE /* PlayfairDisplaySC-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEDB2341EEB20039BCAE /* PlayfairDisplaySC-BlackItalic.otf */; };
+		48D6315A234309A0005065BE /* PlayfairDisplaySC-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEE92341EEB30039BCAE /* PlayfairDisplaySC-Bold.otf */; };
+		48D6315B234309A0005065BE /* PlayfairDisplaySC-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEEF2341EEB30039BCAE /* PlayfairDisplaySC-BoldItalic.otf */; };
+		48D6315C234309A0005065BE /* PlayfairDisplaySC-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEDD2341EEB20039BCAE /* PlayfairDisplaySC-Italic.otf */; };
+		48D6315D234309A0005065BE /* PlayfairDisplaySC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEEB2341EEB30039BCAE /* PlayfairDisplaySC-Regular.otf */; };
+		48D6315E234309A0005065BE /* RechtmanPlain.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEDF2341EEB20039BCAE /* RechtmanPlain.ttf */; };
+		48D6315F234309A0005065BE /* Redressed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 48D3EEED2341EEB30039BCAE /* Redressed.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +60,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2205E529AE70B3C200D61C7B /* Pods-iOS Photo Editor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Photo Editor.debug.xcconfig"; path = "Target Support Files/Pods-iOS Photo Editor/Pods-iOS Photo Editor.debug.xcconfig"; sourceTree = "<group>"; };
+		2DB77E3DE2D6E0A08D325D24 /* Pods-iOS Photo Editor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Photo Editor.release.xcconfig"; path = "Target Support Files/Pods-iOS Photo Editor/Pods-iOS Photo Editor.release.xcconfig"; sourceTree = "<group>"; };
+		48BE103E2331FEF3002D6C4D /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		48C256CD232F52530008BB82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		48C256CF232F98B50008BB82 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
 		48C9EE94232A729F0049F42A /* iOS Photo Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Photo Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C9EE97232A729F0049F42A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48C9EE9C232A729F0049F42A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +77,30 @@
 		48C9EEB7232A72A00049F42A /* iOS_Photo_EditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Photo_EditorUITests.swift; sourceTree = "<group>"; };
 		48C9EEB9232A72A00049F42A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48C9EECB232A9D570049F42A /* editorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editorVC.swift; sourceTree = "<group>"; };
+		48D3EEDB2341EEB20039BCAE /* PlayfairDisplaySC-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplaySC-BlackItalic.otf"; path = "../../../../../../../Downloads/Fonts 2/PlayfairDisplaySC-BlackItalic.otf"; sourceTree = "<group>"; };
+		48D3EEDC2341EEB20039BCAE /* CaviarDreams_BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = CaviarDreams_BoldItalic.ttf; path = "../../../../../../../Downloads/Fonts 2/CaviarDreams_BoldItalic.ttf"; sourceTree = "<group>"; };
+		48D3EEDD2341EEB20039BCAE /* PlayfairDisplaySC-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplaySC-Italic.otf"; path = "../../../../../../../Downloads/Fonts 2/PlayfairDisplaySC-Italic.otf"; sourceTree = "<group>"; };
+		48D3EEDE2341EEB20039BCAE /* Carrington.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Carrington.ttf; path = "../../../../../../../Downloads/Fonts 2/Carrington.ttf"; sourceTree = "<group>"; };
+		48D3EEDF2341EEB20039BCAE /* RechtmanPlain.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = RechtmanPlain.ttf; path = "../../../../../../../Downloads/Fonts 2/RechtmanPlain.ttf"; sourceTree = "<group>"; };
+		48D3EEE02341EEB20039BCAE /* Kingthings_Calligraphica_2.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Kingthings_Calligraphica_2.ttf; path = "../../../../../../../Downloads/Fonts 2/Kingthings_Calligraphica_2.ttf"; sourceTree = "<group>"; };
+		48D3EEE12341EEB30039BCAE /* PlayfairDisplaySC-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplaySC-Black.otf"; path = "../../../../../../../Downloads/Fonts 2/PlayfairDisplaySC-Black.otf"; sourceTree = "<group>"; };
+		48D3EEE22341EEB30039BCAE /* Kingthings_Calligraphica_Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Kingthings_Calligraphica_Light.ttf; path = "../../../../../../../Downloads/Fonts 2/Kingthings_Calligraphica_Light.ttf"; sourceTree = "<group>"; };
+		48D3EEE32341EEB30039BCAE /* Caviar_Dreams_Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Caviar_Dreams_Bold.ttf; path = "../../../../../../../Downloads/Fonts 2/Caviar_Dreams_Bold.ttf"; sourceTree = "<group>"; };
+		48D3EEE42341EEB30039BCAE /* PlayfairDisplay-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-BlackItalic.otf"; path = "../../../../../../../Downloads/Fonts 2/PlayfairDisplay-BlackItalic.otf"; sourceTree = "<group>"; };
+		48D3EEE52341EEB30039BCAE /* Kingthings_Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Kingthings_Foundation.ttf; path = "../../../../../../../Downloads/Fonts 2/Kingthings_Foundation.ttf"; sourceTree = "<group>"; };
+		48D3EEE62341EEB30039BCAE /* PlayfairDisplay-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Black.otf"; path = "../../../../../../../Downloads/Fonts 2/PlayfairDisplay-Black.otf"; sourceTree = "<group>"; };
+		48D3EEE72341EEB30039BCAE /* PlayfairDisplay-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-BoldItalic.otf"; path = "../../../../../../../Downloads/Fonts 2/PlayfairDisplay-BoldItalic.otf"; sourceTree = "<group>"; };
+		48D3EEE82341EEB30039BCAE /* PlayfairDisplay-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Italic.otf"; path = "../../../../../../../Downloads/Fonts 2/PlayfairDisplay-Italic.otf"; sourceTree = "<group>"; };
+		48D3EEE92341EEB30039BCAE /* PlayfairDisplaySC-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplaySC-Bold.otf"; path = "../../../../../../../Downloads/Fonts 2/PlayfairDisplaySC-Bold.otf"; sourceTree = "<group>"; };
+		48D3EEEA2341EEB30039BCAE /* CaviarDreams.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = CaviarDreams.ttf; path = "../../../../../../../Downloads/Fonts 2/CaviarDreams.ttf"; sourceTree = "<group>"; };
+		48D3EEEB2341EEB30039BCAE /* PlayfairDisplaySC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplaySC-Regular.otf"; path = "../../../../../../../Downloads/Fonts 2/PlayfairDisplaySC-Regular.otf"; sourceTree = "<group>"; };
+		48D3EEEC2341EEB30039BCAE /* PlayfairDisplay-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Regular.otf"; path = "../../../../../../../Downloads/Fonts 2/PlayfairDisplay-Regular.otf"; sourceTree = "<group>"; };
+		48D3EEED2341EEB30039BCAE /* Redressed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Redressed.ttf; path = "../../../../../../../Downloads/Fonts 2/Redressed.ttf"; sourceTree = "<group>"; };
+		48D3EEEE2341EEB30039BCAE /* CaviarDreams_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = CaviarDreams_Italic.ttf; path = "../../../../../../../Downloads/Fonts 2/CaviarDreams_Italic.ttf"; sourceTree = "<group>"; };
+		48D3EEEF2341EEB30039BCAE /* PlayfairDisplaySC-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplaySC-BoldItalic.otf"; path = "../../../../../../../Downloads/Fonts 2/PlayfairDisplaySC-BoldItalic.otf"; sourceTree = "<group>"; };
+		48D3EEF02341EEB40039BCAE /* PlayfairDisplay-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PlayfairDisplay-Bold.otf"; path = "../../../../../../../Downloads/Fonts 2/PlayfairDisplay-Bold.otf"; sourceTree = "<group>"; };
+		48D3EEF12341EEB40039BCAE /* Kingthings_Calligraphica_Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Kingthings_Calligraphica_Italic.ttf; path = "../../../../../../../Downloads/Fonts 2/Kingthings_Calligraphica_Italic.ttf"; sourceTree = "<group>"; };
+		8DA9BC647EFE4A447E74D3FA /* Pods_iOS_Photo_Editor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Photo_Editor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D681DCC78A9121E72C00E9F /* Pods_iOS_Photo_Editor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +129,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D54F5E36609ADF77FA4215 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DA9BC647EFE4A447E74D3FA /* Pods_iOS_Photo_Editor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		48C9EE8B232A729F0049F42A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +144,8 @@
 				48C9EEAB232A72A00049F42A /* iOS Photo EditorTests */,
 				48C9EEB6232A72A00049F42A /* iOS Photo EditorUITests */,
 				48C9EE95232A729F0049F42A /* Products */,
+				600A5D5FFCC7225092DDD6EA /* Pods */,
+				18D54F5E36609ADF77FA4215 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +162,15 @@
 		48C9EE96232A729F0049F42A /* iOS Photo Editor */ = {
 			isa = PBXGroup;
 			children = (
-				48C9EEC5232A72B80049F42A /* Main */,
+				48D3EEDA2341EE810039BCAE /* font */,
 				48C9EE97232A729F0049F42A /* AppDelegate.swift */,
+				48C256CD232F52530008BB82 /* ViewController.swift */,
+				48C9EECB232A9D570049F42A /* editorVC.swift */,
 				48C9EE9B232A729F0049F42A /* Main.storyboard */,
 				48C9EE9E232A729F0049F42A /* Assets.xcassets */,
 				48C9EEA0232A729F0049F42A /* LaunchScreen.storyboard */,
 				48C9EEA3232A729F0049F42A /* Info.plist */,
-				48C256CD232F52530008BB82 /* ViewController.swift */,
-				48C256CF232F98B50008BB82 /* TabBarVC.swift */,
+				48BE103E2331FEF3002D6C4D /* HomeVC.swift */,
 			);
 			path = "iOS Photo Editor";
 			sourceTree = "<group>";
@@ -131,36 +193,43 @@
 			path = "iOS Photo EditorUITests";
 			sourceTree = "<group>";
 		};
-		48C9EEC5232A72B80049F42A /* Main */ = {
+		48D3EEDA2341EE810039BCAE /* font */ = {
 			isa = PBXGroup;
 			children = (
-				48C9EEC8232A72DC0049F42A /* Stickers */,
-				48C9EEC7232A72D50049F42A /* Text */,
-				48C9EEC6232A72CD0049F42A /* Filters */,
-				48C9EECB232A9D570049F42A /* editorVC.swift */,
+				48D3EEDE2341EEB20039BCAE /* Carrington.ttf */,
+				48D3EEE32341EEB30039BCAE /* Caviar_Dreams_Bold.ttf */,
+				48D3EEDC2341EEB20039BCAE /* CaviarDreams_BoldItalic.ttf */,
+				48D3EEEE2341EEB30039BCAE /* CaviarDreams_Italic.ttf */,
+				48D3EEEA2341EEB30039BCAE /* CaviarDreams.ttf */,
+				48D3EEE02341EEB20039BCAE /* Kingthings_Calligraphica_2.ttf */,
+				48D3EEF12341EEB40039BCAE /* Kingthings_Calligraphica_Italic.ttf */,
+				48D3EEE22341EEB30039BCAE /* Kingthings_Calligraphica_Light.ttf */,
+				48D3EEE52341EEB30039BCAE /* Kingthings_Foundation.ttf */,
+				48D3EEE62341EEB30039BCAE /* PlayfairDisplay-Black.otf */,
+				48D3EEE42341EEB30039BCAE /* PlayfairDisplay-BlackItalic.otf */,
+				48D3EEF02341EEB40039BCAE /* PlayfairDisplay-Bold.otf */,
+				48D3EEE72341EEB30039BCAE /* PlayfairDisplay-BoldItalic.otf */,
+				48D3EEE82341EEB30039BCAE /* PlayfairDisplay-Italic.otf */,
+				48D3EEEC2341EEB30039BCAE /* PlayfairDisplay-Regular.otf */,
+				48D3EEE12341EEB30039BCAE /* PlayfairDisplaySC-Black.otf */,
+				48D3EEDB2341EEB20039BCAE /* PlayfairDisplaySC-BlackItalic.otf */,
+				48D3EEE92341EEB30039BCAE /* PlayfairDisplaySC-Bold.otf */,
+				48D3EEEF2341EEB30039BCAE /* PlayfairDisplaySC-BoldItalic.otf */,
+				48D3EEDD2341EEB20039BCAE /* PlayfairDisplaySC-Italic.otf */,
+				48D3EEEB2341EEB30039BCAE /* PlayfairDisplaySC-Regular.otf */,
+				48D3EEDF2341EEB20039BCAE /* RechtmanPlain.ttf */,
+				48D3EEED2341EEB30039BCAE /* Redressed.ttf */,
 			);
-			path = Main;
+			path = font;
 			sourceTree = "<group>";
 		};
-		48C9EEC6232A72CD0049F42A /* Filters */ = {
+		600A5D5FFCC7225092DDD6EA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				2205E529AE70B3C200D61C7B /* Pods-iOS Photo Editor.debug.xcconfig */,
+				2DB77E3DE2D6E0A08D325D24 /* Pods-iOS Photo Editor.release.xcconfig */,
 			);
-			path = Filters;
-			sourceTree = "<group>";
-		};
-		48C9EEC7232A72D50049F42A /* Text */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Text;
-			sourceTree = "<group>";
-		};
-		48C9EEC8232A72DC0049F42A /* Stickers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Stickers;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48C9EEBC232A72A00049F42A /* Build configuration list for PBXNativeTarget "iOS Photo Editor" */;
 			buildPhases = (
+				9E611CDAC8259E728B373AEE /* [CP] Check Pods Manifest.lock */,
 				48C9EE90232A729F0049F42A /* Sources */,
 				48C9EE91232A729F0049F42A /* Frameworks */,
 				48C9EE92232A729F0049F42A /* Resources */,
+				A8C1E7A5FE73657C26270A04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -267,6 +338,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4861E41F23432C6E001CEB76 /* Caviar_Dreams_Bold.ttf in Resources */,
+				4861E42023432C6E001CEB76 /* CaviarDreams_Italic.ttf in Resources */,
+				4861E42123432C6E001CEB76 /* Kingthings_Calligraphica_2.ttf in Resources */,
+				4861E42223432C6E001CEB76 /* Kingthings_Calligraphica_Light.ttf in Resources */,
+				48D63152234309A0005065BE /* PlayfairDisplay-Black.otf in Resources */,
+				48D63153234309A0005065BE /* PlayfairDisplay-BlackItalic.otf in Resources */,
+				48D63154234309A0005065BE /* PlayfairDisplay-Bold.otf in Resources */,
+				48D63155234309A0005065BE /* PlayfairDisplay-BoldItalic.otf in Resources */,
+				48D63156234309A0005065BE /* PlayfairDisplay-Italic.otf in Resources */,
+				48D63157234309A0005065BE /* PlayfairDisplay-Regular.otf in Resources */,
+				48D63158234309A0005065BE /* PlayfairDisplaySC-Black.otf in Resources */,
+				48D63159234309A0005065BE /* PlayfairDisplaySC-BlackItalic.otf in Resources */,
+				48D6315A234309A0005065BE /* PlayfairDisplaySC-Bold.otf in Resources */,
+				48D6315B234309A0005065BE /* PlayfairDisplaySC-BoldItalic.otf in Resources */,
+				48D6315C234309A0005065BE /* PlayfairDisplaySC-Italic.otf in Resources */,
+				48D6315D234309A0005065BE /* PlayfairDisplaySC-Regular.otf in Resources */,
+				48D6315E234309A0005065BE /* RechtmanPlain.ttf in Resources */,
+				48D6315F234309A0005065BE /* Redressed.ttf in Resources */,
+				48D6315123430996005065BE /* Kingthings_Foundation.ttf in Resources */,
+				48D6315023430990005065BE /* Kingthings_Calligraphica_Italic.ttf in Resources */,
+				48D6314F2343098B005065BE /* CaviarDreams.ttf in Resources */,
+				48D6314E2343097B005065BE /* CaviarDreams_BoldItalic.ttf in Resources */,
+				48D6314D23430975005065BE /* Carrington.ttf in Resources */,
 				48C9EEA2232A729F0049F42A /* LaunchScreen.storyboard in Resources */,
 				48C9EE9F232A729F0049F42A /* Assets.xcassets in Resources */,
 				48C9EE9D232A729F0049F42A /* Main.storyboard in Resources */,
@@ -289,14 +383,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9E611CDAC8259E728B373AEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Photo Editor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C1E7A5FE73657C26270A04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Photo Editor/Pods-iOS Photo Editor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Photo Editor/Pods-iOS Photo Editor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS Photo Editor/Pods-iOS Photo Editor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48C9EE90232A729F0049F42A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				48C256CE232F52530008BB82 /* ViewController.swift in Sources */,
+				48BE103F2331FEF3002D6C4D /* HomeVC.swift in Sources */,
 				48C9EECC232A9D570049F42A /* editorVC.swift in Sources */,
-				48C256D0232F98B50008BB82 /* TabBarVC.swift in Sources */,
 				48C9EE98232A729F0049F42A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +534,7 @@
 					"$(inherited)",
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -453,6 +590,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
@@ -470,10 +608,13 @@
 		};
 		48C9EEBD232A72A00049F42A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2205E529AE70B3C200D61C7B /* Pods-iOS Photo Editor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 892V5CS9XS;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "iOS Photo Editor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,10 +629,13 @@
 		};
 		48C9EEBE232A72A00049F42A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB77E3DE2D6E0A08D325D24 /* Pods-iOS Photo Editor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 892V5CS9XS;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				INFOPLIST_FILE = "iOS Photo Editor/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
